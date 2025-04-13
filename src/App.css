@@ -12,6 +12,16 @@ body{
   
 }
 
+.custom-table,
+.custom-table tbody,
+.custom-table tr,
+.custom-table td,
+.custom-table th {
+  background-color: transparent !important;
+  border: none;
+}
+
+
 .card-img-top{
     width: 100%;
     height: 25rem;

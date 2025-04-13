@@ -49,7 +49,7 @@ export const MovieDetails = () => {
            <i className='bi bi-people-fill text-success' ></i>{movie.vote_count} reviews
           </p>
 
-          <table className='table'>
+          <table className='table custom-table'>
             <tbody>
               <tr>
                 <th>Runtime</th>
