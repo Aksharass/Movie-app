@@ -10,5 +10,11 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Redirect to index.html on 404 (for GitHub Pages)
+      if (location.pathname !== '/' && !location.pathname.includes('.')) {
+        location.replace('/Movie-App/#' + location.pathname)
+      }
+    </script>
   </body>
 </html>

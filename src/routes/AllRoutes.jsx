@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {MovieDetails, MovieList, PageNotFound, Search} from "../pages"
 
 const AllRoutes = () => {
@@ -16,7 +16,7 @@ const AllRoutes = () => {
         <Route path='*' element={<PageNotFound title="Page Not Found"/>}/>
  
     </Routes>
-    
+
     </>
   )
 }
